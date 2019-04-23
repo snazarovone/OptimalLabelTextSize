@@ -1,0 +1,6 @@
+framework module OptimalLabelTextSize {
+  umbrella header "OptimalLabelTextSize-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "OptimalLabelTextSize",
+  "version": "0.1.0",
+  "summary": "A short description of OptimalLabelTextSize.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/snazarovone/OptimalLabelTextSize",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "snazarovone": "snazarovone@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/snazarovone/OptimalLabelTextSize.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OptimalLabelTextSize/Classes/**/*"
+}
