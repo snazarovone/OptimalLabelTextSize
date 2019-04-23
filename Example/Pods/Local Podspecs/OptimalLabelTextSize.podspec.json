@@ -18,5 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "OptimalLabelTextSize/Classes/**/*"
+  "swift_version": "5",
+  "source_files": "OptimalLabelTextSize/Classes/**/*",
+  "frameworks": "UIKit"
 }

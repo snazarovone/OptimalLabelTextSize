@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C5A660638D3EABAD524C9A9ACB875C9 /* OptimalLabelTextSize-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 334B594BCCFCF16DC579F192CF1DF807 /* OptimalLabelTextSize-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AFADCA995A3C7C2CBBF6EED516A26A8 /* Pods-OptimalLabelTextSize_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D3AE0A7F96ABF5F8E6FB4A642FF361 /* Pods-OptimalLabelTextSize_Example-dummy.m */; };
 		20CAC412EE3B70114320E1A4C871C532 /* Pods-OptimalLabelTextSize_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33679D7CC1E147950781461D83A3D4D7 /* Pods-OptimalLabelTextSize_Tests-dummy.m */; };
-		352AD15539E17BA23A2793FB90CEB247 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		A3CE24F5A7830E70B1EFABF5D54E7176 /* OptimalLabelTextSize-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F525F349EAA9AAD71D22D3EB308FB5CB /* OptimalLabelTextSize-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		352AD15539E17BA23A2793FB90CEB247 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		3646788E226F669200F76B8E /* DeviceDiagonal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3646788D226F669200F76B8E /* DeviceDiagonal.swift */; };
+		81254EDB799FA5CC6029623CDC63E337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		99D55485AE16CA56F24265819D2A6C9C /* TextSizeDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E035182DB5888C79BA8866AC096739 /* TextSizeDevice.swift */; };
 		A540C42C5701DD530B97D656647DBC4E /* Pods-OptimalLabelTextSize_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C01D8E18A4AAC698A304D49801E93CF8 /* Pods-OptimalLabelTextSize_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C126BEDBCEFFCF6EB5C68F73F9DD7747 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86688FE41AD99834BB92FDCEB5D3F5F /* ReplaceMe.swift */; };
+		AD6076F3300747D389B05F6D9347B629 /* OptimalLabelTextSize-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 631D717A5D8B496D6FBE46B3E3B721E6 /* OptimalLabelTextSize-dummy.m */; };
 		CB6D8F85D9A53BE22B4E5DA63BB5D3D6 /* Pods-OptimalLabelTextSize_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8D9C22F2CA1A8186F519C1EDEFB2CCB /* Pods-OptimalLabelTextSize_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE09FBFFEF7CEDD25132846980D6F188 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		DF0D1916AD74F698D323FCB28546F881 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		DF30F7EC0818044B636994DCFB854C38 /* OptimalLabelTextSize-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C479784B15FFAC3D7F284D31208008A1 /* OptimalLabelTextSize-dummy.m */; };
+		DF0D1916AD74F698D323FCB28546F881 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		FA896C3610884172205E06699443732D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,43 +33,45 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DEF924526C2D8EC7A571419B0C7EADE6;
+			remoteGlobalIDString = 47284BE2B12803A60584E110C32983C2;
 			remoteInfo = OptimalLabelTextSize;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08DC1688A9FC531E469221032C505226 /* OptimalLabelTextSize-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OptimalLabelTextSize-prefix.pch"; sourceTree = "<group>"; };
+		07E5117F4616F3FC5FB1259D26A3250D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1746E7678CDE461C9418804DA8CB9814 /* Pods_OptimalLabelTextSize_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptimalLabelTextSize_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E9819AB7F94986B5858A19F4222552 /* OptimalLabelTextSize.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OptimalLabelTextSize.modulemap; sourceTree = "<group>"; };
+		334B594BCCFCF16DC579F192CF1DF807 /* OptimalLabelTextSize-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OptimalLabelTextSize-umbrella.h"; sourceTree = "<group>"; };
 		33679D7CC1E147950781461D83A3D4D7 /* Pods-OptimalLabelTextSize_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OptimalLabelTextSize_Tests-dummy.m"; sourceTree = "<group>"; };
+		340AE1530F093383F4A693717747E788 /* OptimalLabelTextSize-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OptimalLabelTextSize-Info.plist"; sourceTree = "<group>"; };
+		3646788D226F669200F76B8E /* DeviceDiagonal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DeviceDiagonal.swift; path = OptimalLabelTextSize/Classes/DeviceDiagonal.swift; sourceTree = "<group>"; };
+		384413EA5FE359E24152D1AAA3E686BC /* OptimalLabelTextSize.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OptimalLabelTextSize.xcconfig; sourceTree = "<group>"; };
 		392D0F38D3A159F6EDF6252DB9CBD9EC /* OptimalLabelTextSize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptimalLabelTextSize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D3AE0A7F96ABF5F8E6FB4A642FF361 /* Pods-OptimalLabelTextSize_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OptimalLabelTextSize_Example-dummy.m"; sourceTree = "<group>"; };
+		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		49A5EEEA756918F49F5E0BFD3FB3C389 /* Pods-OptimalLabelTextSize_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OptimalLabelTextSize_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4A4C830B241FD22C50895EF180512EE4 /* Pods-OptimalLabelTextSize_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OptimalLabelTextSize_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5292DB79C427DB7AF9806DB89FC258DA /* OptimalLabelTextSize.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OptimalLabelTextSize.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		55CC81E89A45674247CF8072B6CC2E99 /* OptimalLabelTextSize-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OptimalLabelTextSize-Info.plist"; sourceTree = "<group>"; };
 		5E108C3A31CD8F9B81A9F88C587D3AF5 /* Pods-OptimalLabelTextSize_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OptimalLabelTextSize_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		631D717A5D8B496D6FBE46B3E3B721E6 /* OptimalLabelTextSize-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OptimalLabelTextSize-dummy.m"; sourceTree = "<group>"; };
 		73A3962502EF1F8607E5B185565DE013 /* Pods-OptimalLabelTextSize_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OptimalLabelTextSize_Example.modulemap"; sourceTree = "<group>"; };
 		73CE24AF98D66A655827218C6400D54A /* Pods-OptimalLabelTextSize_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OptimalLabelTextSize_Tests.modulemap"; sourceTree = "<group>"; };
-		7A6B56C30D2B0C226A2EBB42C0D1A9CD /* OptimalLabelTextSize.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OptimalLabelTextSize.xcconfig; sourceTree = "<group>"; };
 		7E53E133893229756A6A4C97FA20F198 /* Pods-OptimalLabelTextSize_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OptimalLabelTextSize_Tests-Info.plist"; sourceTree = "<group>"; };
+		8363F50A5A08C88BBD3A0C30D7805404 /* OptimalLabelTextSize.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OptimalLabelTextSize.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8DDA8116ADE2CDE0029D7909B8E9DDDC /* Pods-OptimalLabelTextSize_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OptimalLabelTextSize_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9358FA34762A10A373ABCE2F3E7A64FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		97B40DDA1E8E7F07E6DECF7F3AF138EB /* Pods-OptimalLabelTextSize_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OptimalLabelTextSize_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AEE21D99449DA41928A27E146E694DE5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B88A838BBC0B36AE93A20D6A80CB4657 /* OptimalLabelTextSize.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OptimalLabelTextSize.modulemap; sourceTree = "<group>"; };
+		A7E035182DB5888C79BA8866AC096739 /* TextSizeDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextSizeDevice.swift; path = OptimalLabelTextSize/Classes/TextSizeDevice.swift; sourceTree = "<group>"; };
 		B98493289645AF1503147780F6AF9C08 /* Pods-OptimalLabelTextSize_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OptimalLabelTextSize_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C01D8E18A4AAC698A304D49801E93CF8 /* Pods-OptimalLabelTextSize_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OptimalLabelTextSize_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C421F2D3FEDD1CBF7CA5C8D57DEF1592 /* Pods-OptimalLabelTextSize_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OptimalLabelTextSize_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C479784B15FFAC3D7F284D31208008A1 /* OptimalLabelTextSize-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OptimalLabelTextSize-dummy.m"; sourceTree = "<group>"; };
-		C5CC67ABDDB6FE1498A28F00881CFE51 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C86688FE41AD99834BB92FDCEB5D3F5F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OptimalLabelTextSize/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE36F86F55B87A18B4C17AF06B6BAAF8 /* OptimalLabelTextSize-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OptimalLabelTextSize-prefix.pch"; sourceTree = "<group>"; };
 		DB721804C975A8B7DE3758309F5EEB26 /* Pods-OptimalLabelTextSize_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OptimalLabelTextSize_Example-Info.plist"; sourceTree = "<group>"; };
 		E6E02177D1628A862672442184FF8852 /* Pods-OptimalLabelTextSize_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OptimalLabelTextSize_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E8D9C22F2CA1A8186F519C1EDEFB2CCB /* Pods-OptimalLabelTextSize_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OptimalLabelTextSize_Example-umbrella.h"; sourceTree = "<group>"; };
+		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F3EB70A8C8BA8FE2D2B1ABE174B90B07 /* Pods_OptimalLabelTextSize_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptimalLabelTextSize_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F525F349EAA9AAD71D22D3EB308FB5CB /* OptimalLabelTextSize-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OptimalLabelTextSize-umbrella.h"; sourceTree = "<group>"; };
 		FAEE01811FCF3FD9332AE145C955E0EA /* Pods-OptimalLabelTextSize_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OptimalLabelTextSize_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,11 +84,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68A4ED03A117027B048A52D6117E194B /* Frameworks */ = {
+		4942219B890F9C99B86AA787BE4BBDF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE09FBFFEF7CEDD25132846980D6F188 /* Foundation.framework in Frameworks */,
+				81254EDB799FA5CC6029623CDC63E337 /* Foundation.framework in Frameworks */,
+				FA896C3610884172205E06699443732D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		209B3A166A91C811D9B88625672C5A85 /* Pods-OptimalLabelTextSize_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +126,16 @@
 			);
 			name = "Pods-OptimalLabelTextSize_Tests";
 			path = "Target Support Files/Pods-OptimalLabelTextSize_Tests";
+			sourceTree = "<group>";
+		};
+		290FAAC4D26A9D6D0671D58F2F5DC90D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9358FA34762A10A373ABCE2F3E7A64FF /* LICENSE */,
+				8363F50A5A08C88BBD3A0C30D7805404 /* OptimalLabelTextSize.podspec */,
+				07E5117F4616F3FC5FB1259D26A3250D /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		29787C36EAD7DA6047903077153F1027 /* Pods-OptimalLabelTextSize_Example */ = {
@@ -141,23 +164,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		42F65320EA0A3A22709ECA627CB59107 /* OptimalLabelTextSize */ = {
+		54CC2C8269749A33A120194ED85AC3CB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C86688FE41AD99834BB92FDCEB5D3F5F /* ReplaceMe.swift */,
-				E841E4A06D1CBEB7E29F7DC05BA1495C /* Pod */,
-				E17186A2F7A9AE5C664C1178BBAAFD62 /* Support Files */,
+				22E9819AB7F94986B5858A19F4222552 /* OptimalLabelTextSize.modulemap */,
+				384413EA5FE359E24152D1AAA3E686BC /* OptimalLabelTextSize.xcconfig */,
+				631D717A5D8B496D6FBE46B3E3B721E6 /* OptimalLabelTextSize-dummy.m */,
+				340AE1530F093383F4A693717747E788 /* OptimalLabelTextSize-Info.plist */,
+				CE36F86F55B87A18B4C17AF06B6BAAF8 /* OptimalLabelTextSize-prefix.pch */,
+				334B594BCCFCF16DC579F192CF1DF807 /* OptimalLabelTextSize-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OptimalLabelTextSize";
+			sourceTree = "<group>";
+		};
+		7044DB199EFE317D3937813038CEED8B /* OptimalLabelTextSize */ = {
+			isa = PBXGroup;
+			children = (
+				A7E035182DB5888C79BA8866AC096739 /* TextSizeDevice.swift */,
+				3646788D226F669200F76B8E /* DeviceDiagonal.swift */,
+				290FAAC4D26A9D6D0671D58F2F5DC90D /* Pod */,
+				54CC2C8269749A33A120194ED85AC3CB /* Support Files */,
 			);
 			name = OptimalLabelTextSize;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		A905561D99B91BF0E24CDC69820578D7 /* Products */ = {
@@ -175,7 +205,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				CF92603D8DF99CCB04B687CC1CEF81FE /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				A905561D99B91BF0E24CDC69820578D7 /* Products */,
 				361D4A0F2906C4F1F9DE782A2157CD58 /* Targets Support Files */,
 			);
@@ -184,51 +214,28 @@
 		CF92603D8DF99CCB04B687CC1CEF81FE /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				42F65320EA0A3A22709ECA627CB59107 /* OptimalLabelTextSize */,
+				7044DB199EFE317D3937813038CEED8B /* OptimalLabelTextSize */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
+				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E17186A2F7A9AE5C664C1178BBAAFD62 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B88A838BBC0B36AE93A20D6A80CB4657 /* OptimalLabelTextSize.modulemap */,
-				7A6B56C30D2B0C226A2EBB42C0D1A9CD /* OptimalLabelTextSize.xcconfig */,
-				C479784B15FFAC3D7F284D31208008A1 /* OptimalLabelTextSize-dummy.m */,
-				55CC81E89A45674247CF8072B6CC2E99 /* OptimalLabelTextSize-Info.plist */,
-				08DC1688A9FC531E469221032C505226 /* OptimalLabelTextSize-prefix.pch */,
-				F525F349EAA9AAD71D22D3EB308FB5CB /* OptimalLabelTextSize-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OptimalLabelTextSize";
-			sourceTree = "<group>";
-		};
-		E841E4A06D1CBEB7E29F7DC05BA1495C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C5CC67ABDDB6FE1498A28F00881CFE51 /* LICENSE */,
-				5292DB79C427DB7AF9806DB89FC258DA /* OptimalLabelTextSize.podspec */,
-				AEE21D99449DA41928A27E146E694DE5 /* README.md */,
-			);
-			name = Pod;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1F9B382C21F8246BB87422D92BFEC5D5 /* Headers */ = {
+		625D027929C22A2D1D00B344C5F360E4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3CE24F5A7830E70B1EFABF5D54E7176 /* OptimalLabelTextSize-umbrella.h in Headers */,
+				0C5A660638D3EABAD524C9A9ACB875C9 /* OptimalLabelTextSize-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +258,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		47284BE2B12803A60584E110C32983C2 /* OptimalLabelTextSize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA23A4CA3B9DD1F0A554268290AAC00 /* Build configuration list for PBXNativeTarget "OptimalLabelTextSize" */;
+			buildPhases = (
+				625D027929C22A2D1D00B344C5F360E4 /* Headers */,
+				E0D20970A69E63F3C906683ECD925099 /* Sources */,
+				4942219B890F9C99B86AA787BE4BBDF6 /* Frameworks */,
+				96D2B2D1DD38EC3B2AF89B307A9139A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OptimalLabelTextSize;
+			productName = OptimalLabelTextSize;
+			productReference = 392D0F38D3A159F6EDF6252DB9CBD9EC /* OptimalLabelTextSize.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		68FE49BD2514BBD654E28449551AF3A7 /* Pods-OptimalLabelTextSize_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C70835FF60416367BB944396C0D050B /* Build configuration list for PBXNativeTarget "Pods-OptimalLabelTextSize_Tests" */;
@@ -289,24 +314,6 @@
 			productReference = F3EB70A8C8BA8FE2D2B1ABE174B90B07 /* Pods_OptimalLabelTextSize_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DEF924526C2D8EC7A571419B0C7EADE6 /* OptimalLabelTextSize */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB764C7A5B576CFE7B635E81611863D5 /* Build configuration list for PBXNativeTarget "OptimalLabelTextSize" */;
-			buildPhases = (
-				1F9B382C21F8246BB87422D92BFEC5D5 /* Headers */,
-				E7B33D27CF7972BD4B369B6427B2D765 /* Sources */,
-				68A4ED03A117027B048A52D6117E194B /* Frameworks */,
-				E942AAC32265E5EB8B6617D983F405F1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = OptimalLabelTextSize;
-			productName = OptimalLabelTextSize;
-			productReference = 392D0F38D3A159F6EDF6252DB9CBD9EC /* OptimalLabelTextSize.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -329,7 +336,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DEF924526C2D8EC7A571419B0C7EADE6 /* OptimalLabelTextSize */,
+				47284BE2B12803A60584E110C32983C2 /* OptimalLabelTextSize */,
 				CC0FC5DFE95466D37CA6BD3545D8C250 /* Pods-OptimalLabelTextSize_Example */,
 				68FE49BD2514BBD654E28449551AF3A7 /* Pods-OptimalLabelTextSize_Tests */,
 			);
@@ -344,14 +351,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE0F6529D9D613B703DD807397AB1035 /* Resources */ = {
+		96D2B2D1DD38EC3B2AF89B307A9139A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E942AAC32265E5EB8B6617D983F405F1 /* Resources */ = {
+		AE0F6529D9D613B703DD807397AB1035 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,12 +384,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7B33D27CF7972BD4B369B6427B2D765 /* Sources */ = {
+		E0D20970A69E63F3C906683ECD925099 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF30F7EC0818044B636994DCFB854C38 /* OptimalLabelTextSize-dummy.m in Sources */,
-				C126BEDBCEFFCF6EB5C68F73F9DD7747 /* ReplaceMe.swift in Sources */,
+				AD6076F3300747D389B05F6D9347B629 /* OptimalLabelTextSize-dummy.m in Sources */,
+				3646788E226F669200F76B8E /* DeviceDiagonal.swift in Sources */,
+				99D55485AE16CA56F24265819D2A6C9C /* TextSizeDevice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,43 +406,12 @@
 		70634001A44D83F4820CE25A771FAD37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OptimalLabelTextSize;
-			target = DEF924526C2D8EC7A571419B0C7EADE6 /* OptimalLabelTextSize */;
+			target = 47284BE2B12803A60584E110C32983C2 /* OptimalLabelTextSize */;
 			targetProxy = 8551C5F44FAA7C2A0DF0AC6DEB62AF2F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0FC647F8F28FD5825FF6F0BB77A424DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A6B56C30D2B0C226A2EBB42C0D1A9CD /* OptimalLabelTextSize.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimalLabelTextSize/OptimalLabelTextSize-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimalLabelTextSize/OptimalLabelTextSize-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimalLabelTextSize/OptimalLabelTextSize.modulemap";
-				PRODUCT_MODULE_NAME = OptimalLabelTextSize;
-				PRODUCT_NAME = OptimalLabelTextSize;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		2BDDCC2BCE7BB47BF90F7D60F5BC4282 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 49A5EEEA756918F49F5E0BFD3FB3C389 /* Pods-OptimalLabelTextSize_Tests.debug.xcconfig */;
@@ -462,6 +439,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36FCFD4912060144D6038AC761011D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384413EA5FE359E24152D1AAA3E686BC /* OptimalLabelTextSize.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimalLabelTextSize/OptimalLabelTextSize-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimalLabelTextSize/OptimalLabelTextSize-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OptimalLabelTextSize/OptimalLabelTextSize.modulemap";
+				PRODUCT_MODULE_NAME = OptimalLabelTextSize;
+				PRODUCT_NAME = OptimalLabelTextSize;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -529,6 +537,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7ED62A06069490592098639B7B5AE913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384413EA5FE359E24152D1AAA3E686BC /* OptimalLabelTextSize.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimalLabelTextSize/OptimalLabelTextSize-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimalLabelTextSize/OptimalLabelTextSize-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OptimalLabelTextSize/OptimalLabelTextSize.modulemap";
+				PRODUCT_MODULE_NAME = OptimalLabelTextSize;
+				PRODUCT_NAME = OptimalLabelTextSize;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -692,38 +732,6 @@
 			};
 			name = Release;
 		};
-		F5515E886E39A32D349DB0966B5D26B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A6B56C30D2B0C226A2EBB42C0D1A9CD /* OptimalLabelTextSize.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimalLabelTextSize/OptimalLabelTextSize-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimalLabelTextSize/OptimalLabelTextSize-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimalLabelTextSize/OptimalLabelTextSize.modulemap";
-				PRODUCT_MODULE_NAME = OptimalLabelTextSize;
-				PRODUCT_NAME = OptimalLabelTextSize;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -745,11 +753,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB764C7A5B576CFE7B635E81611863D5 /* Build configuration list for PBXNativeTarget "OptimalLabelTextSize" */ = {
+		9DA23A4CA3B9DD1F0A554268290AAC00 /* Build configuration list for PBXNativeTarget "OptimalLabelTextSize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0FC647F8F28FD5825FF6F0BB77A424DA /* Debug */,
-				F5515E886E39A32D349DB0966B5D26B9 /* Release */,
+				36FCFD4912060144D6038AC761011D18 /* Debug */,
+				7ED62A06069490592098639B7B5AE913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

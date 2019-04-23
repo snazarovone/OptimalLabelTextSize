@@ -28,7 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		29D9F6FBEAAEA5FC92CE1A7B /* OptimalLabelTextSize.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OptimalLabelTextSize.podspec; path = ../OptimalLabelTextSize.podspec; sourceTree = "<group>"; };
+		29D9F6FBEAAEA5FC92CE1A7B /* OptimalLabelTextSize.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OptimalLabelTextSize.podspec; path = ../OptimalLabelTextSize.podspec; sourceTree = "<group>"; };
+		36467883226F5AFB00F76B8E /* Device.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Device.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9C6B545B297F20B9A22F60 /* Pods-OptimalLabelTextSize_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimalLabelTextSize_Tests.release.xcconfig"; path = "Target Support Files/Pods-OptimalLabelTextSize_Tests/Pods-OptimalLabelTextSize_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* OptimalLabelTextSize_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptimalLabelTextSize_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,10 +41,10 @@
 		607FACE51AFB9204008FA782 /* OptimalLabelTextSize_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptimalLabelTextSize_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		78B19BF81FFB0BC5709114B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		78B19BF81FFB0BC5709114B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		98DA8D5E004D545B5D9450BF /* Pods_OptimalLabelTextSize_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptimalLabelTextSize_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1824BD4DDB1F7E9101D341 /* Pods-OptimalLabelTextSize_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimalLabelTextSize_Example.release.xcconfig"; path = "Target Support Files/Pods-OptimalLabelTextSize_Example/Pods-OptimalLabelTextSize_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D471E70B9A2BF9F531594D0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D471E70B9A2BF9F531594D0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E2BDDB19529AD587BA64060B /* Pods-OptimalLabelTextSize_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimalLabelTextSize_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OptimalLabelTextSize_Tests/Pods-OptimalLabelTextSize_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6373D574ACD880442362CEF /* Pods_OptimalLabelTextSize_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptimalLabelTextSize_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFEA06A6ACA2A7D75B7FD87A /* Pods-OptimalLabelTextSize_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimalLabelTextSize_Example.debug.xcconfig"; path = "Target Support Files/Pods-OptimalLabelTextSize_Example/Pods-OptimalLabelTextSize_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +78,6 @@
 				E2BDDB19529AD587BA64060B /* Pods-OptimalLabelTextSize_Tests.debug.xcconfig */,
 				4D9C6B545B297F20B9A22F60 /* Pods-OptimalLabelTextSize_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -154,6 +154,7 @@
 		FE7C0D8DCD8CF88E5358FF2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				36467883226F5AFB00F76B8E /* Device.framework */,
 				F6373D574ACD880442362CEF /* Pods_OptimalLabelTextSize_Example.framework */,
 				98DA8D5E004D545B5D9450BF /* Pods_OptimalLabelTextSize_Tests.framework */,
 			);
@@ -208,15 +209,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 72MHAGL49V;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 72MHAGL49V;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -382,6 +386,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -390,12 +395,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -428,6 +435,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -435,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -443,12 +452,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -473,6 +484,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -482,13 +494,14 @@
 			baseConfigurationReference = FFEA06A6ACA2A7D75B7FD87A /* Pods-OptimalLabelTextSize_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 72MHAGL49V;
 				INFOPLIST_FILE = OptimalLabelTextSize/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -497,13 +510,14 @@
 			baseConfigurationReference = BF1824BD4DDB1F7E9101D341 /* Pods-OptimalLabelTextSize_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 72MHAGL49V;
 				INFOPLIST_FILE = OptimalLabelTextSize/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -511,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E2BDDB19529AD587BA64060B /* Pods-OptimalLabelTextSize_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 72MHAGL49V;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -524,7 +539,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptimalLabelTextSize_Example.app/OptimalLabelTextSize_Example";
 			};
 			name = Debug;
@@ -533,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4D9C6B545B297F20B9A22F60 /* Pods-OptimalLabelTextSize_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 72MHAGL49V;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -542,7 +558,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptimalLabelTextSize_Example.app/OptimalLabelTextSize_Example";
 			};
 			name = Release;
