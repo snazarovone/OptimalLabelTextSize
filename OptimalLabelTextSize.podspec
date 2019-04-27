@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OptimalLabelTextSize'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'This is lib will allow you easy to adjust Text Size Label for all iPhone and iPad divices'
 
 # This description is used to generate tags and improve search results.
