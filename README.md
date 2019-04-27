@@ -6,9 +6,11 @@
 
 OptimalLabelTextSize is a set of *@IBDesignable* iOS controls (label, buttons) , which have useful *@IBInspectable* properties. They allows you to build optimal size text font, see a result directly on Xcode Interface Builder.
 
-Written on Swift.
-s
-[![OptimalLabelTextSize preview](Images/screenshot_001.png)](Images/screenshot_001.png)
+Written on Swift
+
+
+
+[![OptimalLabelTextSize preview](Images/screenshot_001.gif)](Images/screenshot_001.gif)
 
 ## How to use
 
