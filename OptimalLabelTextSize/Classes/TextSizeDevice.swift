@@ -26,12 +26,31 @@ public class TextSizeDevice: UILabel {
         }
     }
     
-    @IBInspectable var master : CGFloat = 6.1{
+    @IBInspectable var masterDiagonal : CGFloat = 6.1{
         didSet{
             isNeed = true
             self.applyTextSize()
         }
     }
+    
+    @IBInspectable var autoMinHeight : Bool = false{
+        didSet{
+            isNeed = true
+            if autoMinHeight{
+                minTextSize = Int(9.0)
+                maxTextSize = Int(currentSize + 3)
+            }
+            self.applyTextSize()
+        }
+    }
+    
+    @IBInspectable var isShowTextSize : Bool = false{
+        didSet{
+            isNeed = true
+            self.applyTextSize()
+        }
+    }
+    
     
     @IBInspectable var currentSize : CGFloat = 17.0{
         didSet{
@@ -50,7 +69,7 @@ public class TextSizeDevice: UILabel {
     var masterSize: DeviceSize!
     
     func convertMasterToDeviceSize(){
-        switch master {
+        switch masterDiagonal {
         case DeviceSize.XR_6_1.inch:
             masterSize = DeviceSize.XR_6_1
         case DeviceSize.XS_5_8.inch:
@@ -91,14 +110,34 @@ public class TextSizeDevice: UILabel {
         }else{
             self.font = self.font.withSize(CGFloat(maxTextSize))
         }
+        
+        if isShowTextSize{
+            self.text = "\(self.font.fontName) : \(font.pointSize)"
+        }
     }
+    
+    
+    public static func setTextSize(with k: CGFloat, currentSize: CGFloat, strengthenK: CGFloat, maxTextSize: Int, minTextSize: Int, label: UILabel){
+        let size = Int(k*currentSize*strengthenK)
+        if size <= maxTextSize{
+            if size >= minTextSize{
+                label.font = label.font.withSize(CGFloat(size))
+            }else{
+                label.font = label.font.withSize(CGFloat(minTextSize))
+            }
+        }else{
+            label.font = label.font.withSize(CGFloat(maxTextSize))
+        }
+        
+    }
+    
     
     func applyTextSize(){
         var k: CGFloat!
         convertMasterToDeviceSize()
         
         
-        k = DeviceDiagonal.getDiagonal() / masterSize.inch
+        k = DeviceDiagonal.getDiagonal().inch / masterSize.inch
         setTextSize(with: k)
     }
     override public func awakeFromNib() {
@@ -119,7 +158,7 @@ public class TextSizeDevice: UILabel {
     
 }
 
-enum DeviceSize {
+public enum DeviceSize {
     case XR_6_1
     case XS_5_8
     case XS_Max_6_5
@@ -134,7 +173,7 @@ enum DeviceSize {
     case uknown
 }
 
-extension DeviceSize{
+public extension DeviceSize{
     var inch : CGFloat{
         switch self {
         case .XR_6_1:

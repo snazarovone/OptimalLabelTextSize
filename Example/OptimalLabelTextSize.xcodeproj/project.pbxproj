@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		29D9F6FBEAAEA5FC92CE1A7B /* OptimalLabelTextSize.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OptimalLabelTextSize.podspec; path = ../OptimalLabelTextSize.podspec; sourceTree = "<group>"; };
+		29D9F6FBEAAEA5FC92CE1A7B /* OptimalLabelTextSize.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OptimalLabelTextSize.podspec; path = ../OptimalLabelTextSize.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		36467883226F5AFB00F76B8E /* Device.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Device.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9C6B545B297F20B9A22F60 /* Pods-OptimalLabelTextSize_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimalLabelTextSize_Tests.release.xcconfig"; path = "Target Support Files/Pods-OptimalLabelTextSize_Tests/Pods-OptimalLabelTextSize_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* OptimalLabelTextSize_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptimalLabelTextSize_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
